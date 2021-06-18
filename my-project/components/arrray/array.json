@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_arrray_arrays",
+  "info": {
+    "name": "Array",
+    "icon": "diagnoses"
+  },
+  "options": {},
+  "attributes": {
+    "course": {
+      "type": "json"
+    }
+  }
+}

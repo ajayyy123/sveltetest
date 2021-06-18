@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_img_images",
+  "info": {
+    "name": "Image",
+    "icon": "crow"
+  },
+  "options": {},
+  "attributes": {
+    "Imglabel": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

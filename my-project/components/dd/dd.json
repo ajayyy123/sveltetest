@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_dd_dds",
+  "info": {
+    "name": "DD",
+    "icon": "angle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Menu": {
+      "type": "enumeration",
+      "enum": [
+        "Amar",
+        "Akbar",
+        "Anthony"
+      ]
+    },
+    "FIMG": {
+      "type": "component",
+      "repeatable": true,
+      "component": "img.fimg"
+    },
+    "Title": {
+      "type": "richtext"
+    }
+  }
+}

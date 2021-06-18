@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "HOMEPAGE",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FDD": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dd.dd"
+    },
+    "DDMENU": {
+      "type": "json"
+    },
+    "Table": {
+      "type": "richtext"
+    }
+  }
+}
